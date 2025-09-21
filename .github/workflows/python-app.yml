@@ -20,7 +20,7 @@ jobs:
 
     - name: Run tests with coverage
       run: |
-        python -m pytest --cov=calculator tests/ --cov-report=xml --cov-report=term
+        python -m pytest --cov=calculator ./tests/ --cov-report=xml --cov-report=term
 
     - name: Check coverage
       run: |
