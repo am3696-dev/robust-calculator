@@ -20,6 +20,7 @@ jobs:
 
     - name: Run tests with coverage
       run: |
+        export PYTHONPATH=$PYTHONPATH:$(pwd)
         pytest --cov=calculator tests/
     
     - name: Check coverage
