@@ -12,7 +12,7 @@ A simple command-line calculator that supports addition, subtraction, multiplica
 
 ### 1. Clone the repository
 \`\`\`bash
-git clone https://github.com/<your-username>/robust-calculator.git
+git clone https://github.com/am3696-dev/robust-calculator
 cd robust-calculator
 \`\`\`
 
